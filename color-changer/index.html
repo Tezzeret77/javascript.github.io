@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Color Changer</title>
+  </head>
+  <body>
+    <h1>Color changer</h1>
+
+    <div id="square">
+      <span id="color-text">Color seleccionado</span>
+    </div>
+
+    <div id="box">
+      <button class="color-button" data-color="red" style="--color: red";>Rojo</button>
+      <button class="color-button" data-color="orange" style="--color: orange";>Naranja</button>
+      <button class="color-button" data-color="green" style="--color: green";>Verde</button>
+      <button class="color-button" data-color="purple" style="--color: purple";>Morao</button>
+      <button class="color-button" data-color="aqua" style="--color: aqua";>Mar</button>
+      <button class="custom-button" style="--color: grey";>No hace na</button>
+    </div>
+
+    <script src="main.js"></script>
+
+    <!-- 
+        TODO: Cambia el color de un div cuadrado en función del color que escojas:
+        - Crear un listado con varios botones de varios colores, de manera que cuando hagas click sobre ellos le cambie el color al cuadrado
+        - También se muestra un texto dentro del div con el color escogido
+        - Además, cuando haces hover (pasar el raton por encima), cambia el estilo del div y se hace redondo
+    -->
+  </body>
+</html>
