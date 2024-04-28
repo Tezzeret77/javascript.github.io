@@ -1,5 +1,5 @@
 const randomNumber = Math.floor(Math.random() * 100) + 1;
-let attempts = 0;
+let attempts = 1;
 const form = document.getElementById('guess-form');
 const input = document.getElementById('guess');
 const hints = document.getElementById('hints');
