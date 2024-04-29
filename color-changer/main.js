@@ -14,7 +14,7 @@
 
 
     customButton.addEventListener("click", function() {
-      const customText = "Ya te dije que no hacia nada"; // Establecer el texto personalizado aquí
+      const customText = "Ya te dije que no hacia nada";
       document.getElementById("color-text").textContent = customText;
       alert("Eres tonto?");
     });
